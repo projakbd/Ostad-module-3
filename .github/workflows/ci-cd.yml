@@ -48,4 +48,5 @@ jobs:
       - name: Deploy application
         run: |
           npm install
-          npm start
+          npm start &
+          disown
